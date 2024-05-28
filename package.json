@@ -1,0 +1,16 @@
+{
+  "name": "aurores-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "prop-types": "^15.8.1",
+    "react-bootstrap": "^2.10.2",
+    "react-modal": "^3.16.1"
+  }
+}
